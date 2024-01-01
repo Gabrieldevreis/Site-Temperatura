@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabs - Previsão do tempo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="script.js"></script>    
+       
+</head>
+
+<body>
+    <div class="caixa-com-tudo">
+        <input class="input-busca" type="text" placeholder="Digite o nome da cidade">
+        <button class="botao-buscar" onclick="cliqueiNoBotao()">
+            <img class="img-buscar" alt="botao-busca" src="https://www.svgrepo.com/show/488200/find.svg">
+        </button>
+
+        <div class="caixa-media">
+            <h2 class="cidade">Tempo em:</h2>
+
+            <p class="tempo">0°C</p>
+
+            <div class="caixa-menor">
+                <img class="img-previsao" src="https://openweathermap.org/img/wn/04n.png" alt="icone-do-tempo">
+                <p class="texto-previsao">--------</p>
+            </div>
+
+            <p class="texto-umidade">Umidade:0%</p>
+        </div>
+    </div>
+</body>
+
+</html>
